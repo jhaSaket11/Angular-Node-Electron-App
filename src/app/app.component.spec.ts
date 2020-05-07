@@ -1,9 +1,13 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { ClarityModule } from '@clr/angular';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      imports: [
+        ClarityModule
+    ],
       declarations: [
         AppComponent
       ],
