@@ -6,3 +6,9 @@
 # dependencies
 /node_modules
 
+# test case coverage
+/coverage
+
+# vscode
+/.vscode
+
